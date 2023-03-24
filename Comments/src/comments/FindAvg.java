@@ -4,6 +4,9 @@ package comments;
 
 /**
  * <h1> Program to find average of three numbers!</h1>
+ * The FindAvg program implements an application that
+ * simply calculates the average of three integers and Prints
+ * the output on the screen.
  * 
  * @author author name
  *

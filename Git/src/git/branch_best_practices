@@ -1,0 +1,14 @@
+1. Use branches
+
+2. Use branch naming conventions
+
+3. Delete stale branches
+
+4. Keep branches up to date
+
+5. Do not rewrite history of branches
+
+6. Protect the main branch
+   - Only merge requests are allowed after a code review
+
+7. Test before pushing

@@ -1,0 +1,31 @@
+# Basic Git workflow 
+
+# VERIFY STATUS OF CHANGES
+git status
+
+# LIST ALL BRANCHES
+git branch
+
+# LIST VERSION HISTORY
+git log
+
+# CREATE A NEW BRANCH
+git branch new_branch 			Creates a branch called new_branch
+git checkout new_branch			Switches to new_branch
+git checkout -b branch_name		Checkout and create branch (Shortcut)
+
+# STAGING CHANGES
+git add filename.java			Add a specific file to staging
+git add -A						Stage new, modified, or deleted files
+git add .						Stage new and modified files
+git add -u						Stage modified and delted files
+
+# COMMITING
+git commit -m "Your text"		Commits to version history, with message.
+
+# PUSHING
+git push						Pushes and sends commited changes to a remote repository
+git push -u origin branch_name	Pushes to specified branch.
+
+# PULLING
+git pull						Pulls changes from remote computer to lcoal computer.

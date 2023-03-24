@@ -1,0 +1,34 @@
+1. Atomic commit
+   Commit only one change. It may be across multiple files, but it's one
+   single change.
+   - Work on one single thing at a time
+   - Keep changes small
+
+2. Commit early, commit often
+   - Commit after a single change.
+   - Push when everything is working.
+   
+3. Do not commit generated files
+
+4. Do not commit dependencies
+
+5. Do not commit local configuration files
+
+6. Do not commit broken code
+
+7. Test your changes before committing
+
+8. Write useful commit messages
+   - Straightforward
+   - Meaningful
+
+9. Review your commit (code review)
+
+10. Use reference numbers with your commit
+
+11. Refer a commit by hash
+	- 40 digit long hex number
+	- generated every time a commit is added
+	
+12. VCS does not substitute for a good backup.
+

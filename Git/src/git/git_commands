@@ -1,4 +1,4 @@
-# Basic Git workflow 
+# Basic Git Commands
 
 # VERIFY STATUS OF CHANGES
 git status
@@ -46,3 +46,13 @@ git-prune								It helps to prune all unreachable objects
 
 # STASH
 git stash save "Meaningful message"		Save staged or unstaged uncommited modifications for later usage.
+
+# THROW AWAY ALL YOUR UNCOMMITTED CHANGES
+git reset --hard
+
+# REMOVE A FILE FROM GIT, WITHOUT REMOVING IT FROM YOUR COMPUTER
+git reset file_name				Reset the specified filename
+echo file_name >> .gitignore	Add file_name to .gitignore
+
+# EDIT A COMMIT MESSAGE
+git commit --amend -m "New message"

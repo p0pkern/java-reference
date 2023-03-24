@@ -1,9 +1,0 @@
-# THROW AWAY ALL YOUR UNCOMMITTED CHANGES
-git reset --hard
-
-# REMOVE A FILE FROM GIT, WITHOUT REMOVING IT FROM YOUR COMPUTER
-git reset file_name				Reset the specified filename
-echo file_name >> .gitignore	Add file_name to .gitignore
-
-# EDIT A COMMIT MESSAGE
-git commit --amend -m "New message"

@@ -1,3 +1,5 @@
+# COMMIT BEST PRACTICES
+
 1. Atomic commit
    Commit only one change. It may be across multiple files, but it's one
    single change.
@@ -31,4 +33,27 @@
 	- generated every time a commit is added
 	
 12. VCS does not substitute for a good backup.
+
+# NAMING BEST PRACTICES
+
+1. Use group words in the branch name
+   - This reveals the branches purpose
+   - wip -> Work in progress
+   - exp -> Experimental branch for dev purposes
+   - feature -> adding a new feature
+   - bug -> Issue/bug with code that branch is supposed to fix
+
+2. Use separators
+   - Depends on needs of the team
+   - bug_login_page_redirect
+   - feature-sso-implemented
+
+3. Don't use only numbers
+
+4. Avoid long names
+
+5. Avoid all naming conventions at once
+   - Decide on the best practices of the team and apply those.
+   
+ 
 

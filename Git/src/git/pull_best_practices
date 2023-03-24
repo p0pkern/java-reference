@@ -1,0 +1,12 @@
+1. Use pull requests
+
+2. One pull request for one concern
+   - There can be several commits, but they should be for one feature.
+   
+3. Do not ignore pull requests for long.
+
+4. Complete your work before a pull request.
+
+5. Use useful comments with a pull request.
+
+6. Do not mix refactoring with a new feature.

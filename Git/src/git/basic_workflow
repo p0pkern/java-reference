@@ -9,23 +9,40 @@ git branch
 # LIST VERSION HISTORY
 git log
 
+# VIEW DIFFERENCES IN X VS Y
+git diff --staged						Compare staged files
+git diff x.file y.file					Compares two files
+
 # CREATE A NEW BRANCH
-git branch new_branch 			Creates a branch called new_branch
-git checkout new_branch			Switches to new_branch
-git checkout -b branch_name		Checkout and create branch (Shortcut)
+git branch new_branch 					Creates a branch called new_branch
+git checkout new_branch					Switches to new_branch
+git checkout -b branch_name				Checkout and create branch (Shortcut)
 
 # STAGING CHANGES
-git add filename.java			Add a specific file to staging
-git add -A						Stage new, modified, or deleted files
-git add .						Stage new and modified files
-git add -u						Stage modified and delted files
+git add filename.java					Add a specific file to staging
+git add -A								Stage new, modified, or deleted files
+git add .								Stage new and modified files
+git add -u								Stage modified and delted files
 
 # COMMITING
-git commit -m "Your text"		Commits to version history, with message.
+git commit -m "Your text"				Commits to version history, with message.
 
 # PUSHING
-git push						Pushes and sends commited changes to a remote repository
-git push -u origin branch_name	Pushes to specified branch.
+git push								Pushes and sends commited changes to a remote repository
+git push -u origin branch_name			Pushes to specified branch.
 
 # PULLING
-git pull						Pulls changes from remote computer to lcoal computer.
+git pull								Pulls changes from remote computer to lcoal computer.
+
+# REBASE
+git checkout main						Switch to main
+git pull								Pull any changes on feature into main
+git checkout new_branch					Switch back to branch
+git rebase main							Finds the common ancestor and applies the current pulled changes to clean code.
+
+# KEEPING CODE CLEAN
+git-gc									It cleans the unwanted files and optimizes your local repository
+git-prune								It helps to prune all unreachable objects
+
+# STASH
+git stash save "Meaningful message"		Save staged or unstaged uncommited modifications for later usage.

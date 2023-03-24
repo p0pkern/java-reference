@@ -1,0 +1,38 @@
+# QUICK REFERENCE TO BOOST PRODUCTIVITY
+
+1. Use the AFTER technique
+	A - Atomic Commits							 commit only one thing
+	F - Frequent Commits						 commit early and often
+	T - Test before you push your changes		 test before pushing code to remote
+	E - Enforce standards						 use git ignore, establish a workflow
+	R - Refactoring is not a new feature		 Do not refactor while making a feature
+	
+# QUICK GITHUB WORKFLOW
+
+# CREATE A BRANCH
+git checkout -b feature_new_branch				Create and switch to new branch
+
+# ANY CHANGES PERFORM FREQUENTLY
+git branch										Verify you are still on correct branch
+git status										Verify the current changes that git wants to stage
+git add -A	(or filename)						Stage new, modified or deleted files
+git status										Verify that only necessary files are staged
+git commit -m "#Tag message"					Add a meaningful message to commit locally
+
+# PERFORM OFTEN TO KEEP CLEAN AND ORGANIZED
+git checkout parent_branch						Switch to previous branch
+git pull										Pull any changes to that branch
+git checkout feature_new_branch					Switch back to new branch
+git rebase parent_branch						Rebase changes to clean branches
+git-gc											Clean unwanted files locally
+git-prune										Prunes all unreachable objects
+
+# FINISHING A FEATURE AFTER PERFORMING ABOVE
+git push -u origin feature_new_branch			Pushes the new branch to the remote repository
+# INITIATE A MEANINGFUL PULL REQUEST
+
+# PULL REQUEST HAS BEEN ACCEPTED AND MERGED
+git checkout next_branch						Go to the next branch for the next feature or issue
+git branch -D feature_new_branch				Delete old branch that is no longer necessary
+
+# REPEAT

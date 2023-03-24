@@ -1,0 +1,17 @@
+1. Comments are not subtitles. Comments are supposed to support the code
+   so that when you or anybody comes back to it, they can make sense of it.
+   Do not explain every detail.
+  
+2. Do not just repeat what your code is able to clearly explain.
+
+3. Smelly comments need to be avoided at all cost. When you try to explain
+   code in detail to make sure the reader is not confused. it's a signal
+   that something is wrong with your code. No comment can fix that.
+   
+4. Write comments as you go and do not make a habit of going back and
+   commenting after code completion.
+
+5. Keep the comments short and precise.
+
+6. When you place comments inline, make sure they are separated from the
+   main code with at least two spaces.

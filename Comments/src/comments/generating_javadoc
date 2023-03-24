@@ -1,0 +1,3 @@
+Generate a javadoc with the following commmand using the 'javadoc' tool.
+
+javadoc FindAvg.java

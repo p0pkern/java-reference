@@ -1,0 +1,61 @@
+TAG				DESCRIPTION										SYNTAX
+@author			Tag adds the author of the class				@author name-text
+
+{@code}			Displays text in code font without				{@code text}
+				interpreting the text as HTML markup
+				or nexted javadoc tags.
+								
+{@docRoot}		This tag represents the relative path			{@docRoot}
+				to the generated document's root directory
+				from any generated page.
+				
+@deprecated		Adds a comment indicating this API should		@deprecated
+				no longer be used.								deprecated-text
+				
+@exception		Adds a throws subheading to the generated		@exception class-name
+				documentation, with the classname and			description
+				description text.
+
+{@inheritDoc}	Inherits a comment from the nearest				
+				inheritable class or implementable interface
+
+{@link}			Inserts an in-line link with the visible text	{@link
+				label that points to the documentation for		package.class#member
+				the specified package, class, or member name	label}
+				of a referenced class.
+				
+{@linkplain}	Identical to {@link}, except the link's label	{@linkplain
+				is displayed in plain text than code font		package.class#member
+																label}
+																
+@param			Adds a parameter with the specified parameter-	@param parameter-name
+				name followed by the specified description to	descrption
+				the "Parameters" section.
+				
+@return			Adds a "Returns" section with description text	@return description
+
+@see			Adds a "See Also" heading with a link or text	@see reference
+				entry that points to reference.
+				
+@serial			Used in the doc comment for a default			@serial field-description
+				serializable field.
+				
+@serialData		This tag documents the data written by			@serialData data-description
+
+@serialField	Documents the data written by the				@serialData data-description
+				writeObject() or writeExternal() methods
+				
+@since			Adds a "Since" heading with the specified		@since release
+				since-text to the generated documentation
+				
+@throws			@throws and @exception tags are synonyms		@throws class-name
+																description
+															
+{@value}		When {@value} is used in the doc comment		{@value
+				of a static field, it displays the value		package.class#field}
+				of the constant.
+				
+@version		Tag adds a "Version" subheading with the		@version version-text
+				specified version-text to the generated docs
+				when the -version option is used.
+				

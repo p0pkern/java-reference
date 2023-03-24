@@ -1,0 +1,5 @@
+# Installation
+refer to https://maven.apache.org/guides/
+
+# CHECK IF INSTALLED/VERSION
+mvn --version
